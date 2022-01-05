@@ -1,0 +1,83 @@
+<%- include('../admin partial/header') -%>
+        <div class="container">
+            <div class="main-panel">
+                <div class="row">
+                    <div class="col-lg-12 m-3">
+                        <form action="/product/imageC" method="post" enctype="multipart/form-data">
+                            <div class="form-group col-6">
+                                <input type="file" name="image" class="btn btn-primary" value="Seç">
+                            </div>
+                            <div class="form-group col-6">
+                                <input type="submit" class="btn btn-primary" value="Değiştir">
+                            </div>
+                        </form>
+                        <form action="/product/add" method="post">
+                            <div class="form-row ">
+                                <div class="form-group col-12">
+                                    <label for="imageInput" class="font-weight-bold">Resim</label>
+                                    <img id="imageInput" style="width: 300px; height: 300px;" src="<%= typeof file != 'undefined' ? file : ' ' %>">
+                                    <input type="text" name="fotografUrl"
+                                        value="<%= typeof file != 'undefined' ? file : ' ' %>" readonly>
+                                </div>
+                                <div class="form-group col-md-12">
+                                    <label for="inputEmail4" class="font-weight-bold">Başlık</label>
+                                    <input type="text" class="form-control" id="baslik" name="baslik">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="inputPassword4" class="font-weight-bold">Marka</label>
+                                    <input type="text" class="form-control" id="marka" name="marka">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="inputPassword4" class="font-weight-bold">Model</label>
+                                    <input type="text" class="form-control" id="model" name="model">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="inputPassword4" class="font-weight-bold">Renk</label>
+                                    <input type="text" class="form-control" id="renk" name="renk">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="inputPassword4" class="font-weight-bold">Klavye</label>
+                                    <input type="text" class="form-control" id="klavye" name="klavye">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="inputPassword4" class="font-weight-bold">Sap</label>
+                                    <input type="text" class="form-control" id="sap" name="sap">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="inputPassword4" class="font-weight-bold">Perde Sayısı</label>
+                                    <input type="text" class="form-control" id="perdesayisi" name="perdesayisi">
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label for="inputPassword4" class="font-weight-bold">Tür</label>
+                                    <select class="form-select" name="tur" aria-label="Default select example">
+                                        <option>Bas</option>
+                                        <option>Akustik</option>
+                                        <option>ElektroAkustik</option>
+                                        <option>Elektro</option>
+                                        <option>Klasik</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label for="inputPassword4" class="font-weight-bold">Manyetikler</label>
+                                    <input type="text" class="form-control" id="manyetikler" name="manyetikler">
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label for="inputPassword4" class="font-weight-bold">Fiyat</label>
+                                    <input type="number" class="form-control" id="fiyat" name="fiyat">
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label for="inputPassword4" class="font-weight-bold">Boyut</label>
+                                    <input type="text" class="form-control" id="boyut" name="boyut">
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label for="inputPassword4" class="font-weight-bold">Yön</label>
+                                    <input type="text" class="form-control" id="yon" name="yon">
+                                </div>
+                            </div>
+
+                            <input type="submit" class="btn btn-primary" value="Oluştur">
+
+                        </form>
+                    </div>
+                </div>
+                <%- include('../admin partial/footer') -%>

@@ -1,0 +1,51 @@
+[{
+  "_id": {
+    "$oid": "61bf81f954d12c5313d73345"
+  },
+  "ad": "Halil İbrahim",
+  "soyad": "Hatun",
+  "cinsiyet": "Erkek",
+  "email": "halil78hatun@gmail.com",
+  "password": "$2b$10$12BJSrF626myDChUfOTqdOoWsY.zCzAMHH4PR/Lv5i/I..oDYP2TK",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61c0430e4b4130046c90ebd4"
+  },
+  "ad": "Emel ",
+  "soyad": "Ay",
+  "cinsiyet": "Kadın",
+  "email": "emelay@gmail.com",
+  "password": "$2b$10$s3l2mGOuh.8rrkNYBEdNV.GEHeOn555pujkwUhutlcst0Mkf38nxK",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61c3298727d056424cffd7a5"
+  },
+  "ad": "Halil İbrahim",
+  "soyad": "Hatun",
+  "cinsiyet": "Kadın",
+  "email": "halil7hatun@gmail.com",
+  "password": "$2b$10$uNTaIL6z72wFdQDAnJ6mEe2yREOx37p5d9DYc6mbOv8vF8InH9wyS",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61c4e8d45e9a700b1ad85723"
+  },
+  "ad": "Halil İbrahim",
+  "soyad": "Hatun",
+  "cinsiyet": "Belirmek İstemiyorum",
+  "email": "halil2006hatun@gmail.com",
+  "password": "$2b$10$XS8RQX12c6TjLtaZheIXlelAoefjgfCkDOZ.DsC2Ri/rnlOyczKrC",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61d587c2fe950afa44f112d8"
+  },
+  "ad": "Emel",
+  "soyad": "Ay",
+  "cinsiyet": "Kadın",
+  "email": "egizemay@gmail.com",
+  "password": "$2b$10$ay/uMNjeIwMMlujZOWrC2.vhbqufil3lzxM6tYeD8H.iOkIOonkgK",
+  "__v": 0
+}]

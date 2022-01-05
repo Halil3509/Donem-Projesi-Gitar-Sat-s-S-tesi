@@ -1,0 +1,112 @@
+<%- include('../admin partial/header') -%>
+            <!-- partial -->
+            <div class="main-panel">
+                <div class="content-wrapper">
+                    <div class="row">
+                        <div class="col-lg-12 grid-margin stretch-card">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="card-title">Gitarlar</h4>
+                                    <a href="/product/addMenu"  id="eklemeButonu" class="btn btn-primary btn-round btn-fw"
+                                        style="position: absolute;right: 84px; top: 18px;"> Ekle</a>
+                                    
+                                        <% if(action === 'edit') { %>
+                                            <div class="alert alert-success mt-3" role="alert">
+                                             Ürün GÜncellendi.
+                                            </div>
+                                            <% } %>
+                                        <% if(action === 'delete') { %>
+                                            <div class="alert alert-danger mt-3" role="alert">
+                                            Ürün Silindi.
+                                            </div>
+                                            <% } %>
+                                        <% if(action === 'create') { %>
+                                            <div class="alert alert-primary mt-3" role="alert">
+                                            Ürün Eklendi.
+                                            </div>
+                                            <% } %>
+                                        
+                                    <div class="table-responsive">
+                                        <table class="table table-hover">
+                                            <thead>
+                                                <tr>
+                                                    <th>Resim</th>
+                                                    <th>ID</th>
+                                                    <th>Marka</th>
+                                                    <th>Model</th>
+                                                    <th>Tur</th>
+                                                    <th>Renk</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <% for(var i=0;i<products.length;i++){ %>
+                                                    <tr>
+                                                        <td><img src="<%=products[i].fotografUrl%>" alt=""></td>
+                                                        <td>
+                                                            <%= products[i]._id %>
+                                                        </td>
+                                                        <td>
+                                                            <%= products[i].marka %>
+                                                        </td>
+                                                        <td>
+                                                            <%= products[i].model %>
+                                                        </td>
+                                                        <td>
+                                                            <%= products[i].tur.ad %>
+                                                        </td>
+                                                        <td>
+                                                            <%=products[i].renk %>
+                                                        </td>
+                                                        <td>
+                                                            <a href="/product/list/<%= products[i]._id %> "  id="eklemeButonu" class="btn btn-danger btn-round btn-fw dropdown-toggle"
+                                                          > Detay</a>
+                                                        </td>
+                                                    </tr>
+                                                    <% } %>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- content-wrapper ends -->
+                <!-- partial:../../partials/_footer.html -->
+                <footer class="footer">
+                    <div class="d-sm-flex justify-content-center justify-content-sm-between">
+                        <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">Premium <a
+                                href="https://www.bootstrapdash.com/" target="_blank">Bootstrap admin template</a> from
+                            BootstrapDash.</span>
+                        <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">Copyright © 2021. All
+                            rights
+                            reserved.</span>
+                    </div>
+                </footer>
+                <!-- partial -->
+            </div>
+            <!-- main-panel ends -->
+        </div>
+        <!-- page-body-wrapper ends -->
+    </div>
+    <!-- container-scroller -->
+    <!-- plugins:js -->
+    <script src="../../vendors/js/vendor.bundle.base.js"></script>
+    <!-- endinject -->
+    <!-- Plugin js for this page -->
+    <script src="../../vendors/bootstrap-datepicker/bootstrap-datepicker.min.js"></script>
+    <!-- End plugin js for this page -->
+    <!-- inject:js -->
+    <script src="../../js/off-canvas.js"></script>
+    <script src="../../js/hoverable-collapse.js"></script>
+    <script src="../../js/template.js"></script>
+    <script src="../../js/settings.js"></script>
+    <script src="../../js/todolist.js"></script>
+
+    <!-- endinject -->
+    <!-- Custom js for this page-->
+    <!-- End custom js for this page-->
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+[{
+  "_id": {
+    "$oid": "61c30415629583f177db61df"
+  },
+  "ad": "Cevher",
+  "soyad": "SÖYLETMEZ",
+  "email": "cevhernur.soylemez@bakircay.edu.tr",
+  "password": "$2b$10$7p3fZjVEN3ASZ9Q3UaRyOOuB4m.UPemdOfW7ls0bu/D1m0AJBMbqS",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61c3044bd342de7931368ed9"
+  },
+  "ad": "Okan",
+  "soyad": "ÖZTÜRKMENOĞLU",
+  "email": "okan.ozturkmenoglu@bakircay.edu.tr",
+  "password": "$2b$10$cvL3O8qCXwLU1FTl4bk/Fu01h0iGKaXQBPiSikITrqg4SKcOvJehi",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61c304ad735dfc0486f8ebd9"
+  },
+  "ad": "Halil İbrahim",
+  "soyad": "HATUN",
+  "email": "200601014@bakircay.edu.tr",
+  "password": "$2b$10$lOztYny8P7r6lV2PaoLvS.NubmJKoAPJWOZCJ56t7DEn3FOW.VAri",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61c3055a7f343af224c6932b"
+  },
+  "ad": "Emel Gizem",
+  "soyad": "AY",
+  "email": "210601689@bakircay.edu.tr",
+  "password": "$2b$10$2Lo6ERVqL5epINGeFN4one3KiRa6joxf8uYZR.my6QeKoMVEp25du",
+  "__v": 0
+}]

@@ -1,0 +1,102 @@
+<%- include('../admin partial/header') -%>
+
+<!-- ejs partial ehad navbar düzen gerçekleştirelecek -->
+
+        <div class="container">
+            <div class="main-panel">
+                <div class="row">
+                    <div class="col-lg-12 m-3">
+
+                        <form action="/product/image" method="post" enctype="multipart/form-data">
+                            <div class="form-group col-6">
+                                <input type="file" name="image" class="btn btn-primary" value="Seç">
+                            </div>
+                            <div class="form-group col-6">
+                                <input type="submit" class="btn btn-primary" value="Değiştir">
+                            </div>
+                        </form>
+
+                        <form action="/product/edit" method="post">
+                            <div class="form-row ">
+                                <div class="form-group col-12">
+                                    <label for="imageInput" class="font-weight-bold">Resim</label>
+                                    <img id="imageInput" src="<%= typeof file != 'undefined' ? file : product.fotografUrl %>" alt="Resim"
+                                    style="width: 300px; height: 300px;">
+                                    <input type="text" name="fotografUrl" value="<%= typeof file != 'undefined' ? file : product.fotografUrl %>" readonly>
+                                </div>
+                                <div class="form-group col-md-12">
+                                    <label for="inputEmail4" class="font-weight-bold">Başlık</label>
+                                    <input type="text" class="form-control" id="baslik" name="baslik" value="<%= typeof file != 'undefined' ? product.baslik : product.baslik %>">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="inputEmail4" class="font-weight-bold">ID</label>
+                                    <input type="text" class="form-control" id="ID" name="ID" value="<%= typeof file != 'undefined' ? product._id : product._id %>" readonly>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="inputPassword4" class="font-weight-bold">Marka</label>
+                                    <input type="text" class="form-control" id="marka" name="marka"
+                                        value="<%= typeof file != 'undefined' ? product.marka : product.marka %>">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="inputPassword4" class="font-weight-bold">Model</label>
+                                    <input type="text" class="form-control" id="model" name="model"
+                                        value="<%= typeof file != 'undefined' ? product.model : product.model %>">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="inputPassword4" class="font-weight-bold">Renk</label>
+                                    <input type="text" class="form-control" id="renk" name="renk"
+                                        value="<%= typeof file != 'undefined' ? product.renk : product.renk %>">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="inputPassword4" class="font-weight-bold">Klavye</label>
+                                    <input type="text" class="form-control" id="klavye" name="klavye"
+                                        value="<%= typeof file != 'undefined' ? product.klavye : product.klavye %>">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="inputPassword4" class="font-weight-bold">Sap</label>
+                                    <input type="text" class="form-control" id="sap" name="sap"
+                                        value="<%= typeof file != 'undefined' ? product.sap : product.sap %>">
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label for="inputPassword4" class="font-weight-bold">Perde Sayısı</label>
+                                    <input type="text" class="form-control" id="perdesayisi" name="perdesayisi"
+                                        value="<%= typeof file != 'undefined' ? product.perdesayisi : product.perdesayisi %>">
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label for="inputPassword4" class="font-weight-bold">Tür</label>
+                                    <select class="form-select" name="tur" aria-label="Default select example">
+                                        <option selected><%= typeof file != 'undefined' ? product.tur.ad : product.tur.ad %></option>
+                                        <option>Bas</option>
+                                        <option>Akustik</option>
+                                        <option>ElektroAkustik</option>
+                                        <option>Elektro</option>
+                                        <option>Klasik</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label for="inputPassword4" class="font-weight-bold">Manyetikler</label>
+                                    <input type="text" class="form-control" id="manyetikler" name="manyetikler"
+                                        value="<%= typeof file != 'undefined' ? product.manyetikler : product.manyetikler %>">
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label for="inputPassword4" class="font-weight-bold">Fiyat</label>
+                                    <input type="number" class="form-control" id="fiyat" name="fiyat"
+                                        value="<%= typeof file != 'undefined' ? product.fiyat : product.fiyat %>">
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label for="inputPassword4" class="font-weight-bold">Boyut</label>
+                                    <input type="text" class="form-control" id="boyut" name="boyut"
+                                        value="<%= typeof file != 'undefined' ? product.boyut : product.boyut %>">
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label for="inputPassword4" class="font-weight-bold">Yön</label>
+                                    <input type="text" class="form-control" id="yon" name="yon"
+                                        value="<%= typeof file != 'undefined' ? product.yon : product.yon %>">
+                                </div>
+                            </div>
+                            <a href="/product/remove/<%= product._id %>" class="btn btn-danger">Sil</a>
+                            <input type="submit" class="btn btn-primary" value="Güncelle">  
+                        </form>
+                    </div>
+                </div>
+                <%- include('../admin partial/footer') -%>

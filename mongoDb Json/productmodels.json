@@ -1,0 +1,581 @@
+[{
+  "_id": {
+    "$oid": "61d32662298b25210ef95bfc"
+  },
+  "baslik": "Schecter C-5 SGR Bas Gitar (Gloss Black)",
+  "marka": "schecter",
+  "model": "C-5 SGR ",
+  "renk": "siyah",
+  "klavye": "gül ağacı",
+  "sap": "akçağaç",
+  "perdesayisi": 24,
+  "fotografUrl": "../../uploads/1641227811608.jpg",
+  "tur": {
+    "$oid": "61bf83d354d12c5313d7334c"
+  },
+  "manyetikler": "3 single",
+  "fiyat": 3500,
+  "boyut": "4/4",
+  "yon": "sağlak",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61d3277d298b25210ef95c10"
+  },
+  "baslik": "Epiphone ENOLVSCH1 Les Paul SL Elektro Gitar",
+  "marka": "Les Paul",
+  "model": "Epiphone ENOLVSCH1",
+  "renk": "siyah ve açık kahverengi",
+  "klavye": "gül ağacı",
+  "sap": "maun",
+  "perdesayisi": 22,
+  "fotografUrl": "../../uploads/1641228034989.jpg",
+  "tur": {
+    "$oid": "61bf83dc54d12c5313d7334e"
+  },
+  "manyetikler": "1 single",
+  "fiyat": 2756,
+  "boyut": "4/4",
+  "yon": "sağlak",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61d327ee298b25210ef95c17"
+  },
+  "baslik": "Cort AD880CE NAT Elektro Akustik Gitar",
+  "marka": "Cort",
+  "model": "AD880CE",
+  "renk": "TEN RENGİ",
+  "klavye": "akçağaç",
+  "sap": "gül ağacı",
+  "perdesayisi": 22,
+  "fotografUrl": "../../uploads/1641228367197.jpg",
+  "tur": {
+    "$oid": "61bf83e654d12c5313d73350"
+  },
+  "manyetikler": "single",
+  "fiyat": 4209,
+  "boyut": "4/4",
+  "yon": "solak",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61d32cc415864e579078850e"
+  },
+  "baslik": "Cort AD880CE NAT Elektro Akustik Gitar",
+  "marka": "cort ",
+  "model": "AFFD344",
+  "renk": "kahverengi",
+  "klavye": "gül ağacı",
+  "sap": "akçağaç",
+  "perdesayisi": 22,
+  "fotografUrl": "../../uploads/1641229467109.jpg",
+  "tur": {
+    "$oid": "61bf83dc54d12c5313d7334e"
+  },
+  "manyetikler": "3 single",
+  "fiyat": 5200,
+  "boyut": "4/4",
+  "yon": "solak",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61d52b7d954d63e3b48bb445"
+  },
+  "baslik": "Valencia VC204 Klasik Gitar",
+  "marka": "Valencia",
+  "model": "VC204",
+  "renk": "Açık Kahvereng,",
+  "klavye": "Karartılmış Maun",
+  "sap": "ABS siyah",
+  "perdesayisi": 19,
+  "fotografUrl": "../../uploads/1641360186899.png",
+  "tur": {
+    "$oid": "61bf83f654d12c5313d73354"
+  },
+  "manyetikler": "yok",
+  "fiyat": 1149,
+  "boyut": "4/4",
+  "yon": "sağlak",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61d52bf6954d63e3b48bb44a"
+  },
+  "baslik": "Yamaha C30 Klasik Gitar",
+  "marka": "Yamaha",
+  "model": "C30",
+  "renk": "Siyah",
+  "klavye": "Gül Ağacı",
+  "sap": "Nato",
+  "perdesayisi": 19,
+  "fotografUrl": "../../uploads/1641362253228.png",
+  "tur": {
+    "$oid": "61bf83f654d12c5313d73354"
+  },
+  "manyetikler": "yok",
+  "fiyat": 2149,
+  "boyut": "4/4",
+  "yon": "solak",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61d532b2954d63e3b48bb44f"
+  },
+  "baslik": "Cordoba C5 SP Klasik Gitar",
+  "marka": "Cordoba",
+  "model": "C5 SP",
+  "renk": "Sütlü Kahve",
+  "klavye": "Pau Ferro",
+  "sap": "Maun",
+  "perdesayisi": 19,
+  "fotografUrl": "../../uploads/1641362015213.png",
+  "tur": {
+    "$oid": "61bf83f654d12c5313d73354"
+  },
+  "manyetikler": "yok",
+  "fiyat": 5865,
+  "boyut": "4/4",
+  "yon": "sağlak",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61d53305954d63e3b48bb454"
+  },
+  "baslik": "Valencia VC104 Klasik Gitar",
+  "marka": "Valencia",
+  "model": "VC104",
+  "renk": "Kırmızı",
+  "klavye": "Gül Ağacı",
+  "sap": " Akçağaç",
+  "perdesayisi": 19,
+  "fotografUrl": "../../uploads/1641362112670.png",
+  "tur": {
+    "$oid": "61bf83f654d12c5313d73354"
+  },
+  "manyetikler": "yok",
+  "fiyat": 1030,
+  "boyut": "4/4",
+  "yon": "sağlak",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61d53340954d63e3b48bb459"
+  },
+  "baslik": "Yamaha C40 Klasik Gitar ",
+  "marka": "Yamaha ",
+  "model": "C40",
+  "renk": "Siyah",
+  "klavye": "Gül Ağacı",
+  "sap": "Nato ",
+  "perdesayisi": 19,
+  "fotografUrl": "../../uploads/1641362197802.png",
+  "tur": {
+    "$oid": "61bf83f654d12c5313d73354"
+  },
+  "manyetikler": "yok",
+  "fiyat": 4000,
+  "boyut": "4/4",
+  "yon": "solak",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61d533ab954d63e3b48bb464"
+  },
+  "baslik": "Yamaha FSX315C Elektro-Akustik Gitar",
+  "marka": "Yamaha",
+  "model": "FSX315C",
+  "renk": "Açık Kahve",
+  "klavye": "Gül Ağacı",
+  "sap": "Mat cilalı",
+  "perdesayisi": 19,
+  "fotografUrl": "../../uploads/1641362279311.png",
+  "tur": {
+    "$oid": "61bf83e654d12c5313d73350"
+  },
+  "manyetikler": "yok",
+  "fiyat": 8909,
+  "boyut": "4/4",
+  "yon": "solak",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61d5368b954d63e3b48bb469"
+  },
+  "baslik": "Fender FA-125CE Dreadnought Siyah Elektro Akustik Gitar",
+  "marka": "Fender",
+  "model": " FA-125CE",
+  "renk": "Siyah",
+  "klavye": "Ceviz Ağacı ",
+  "sap": "Maun",
+  "perdesayisi": 20,
+  "fotografUrl": "../../uploads/1641363031104.png",
+  "tur": {
+    "$oid": "61bf83e654d12c5313d73350"
+  },
+  "manyetikler": "yok",
+  "fiyat": 2999,
+  "boyut": "4/4",
+  "yon": "sağlak",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61d540c8954d63e3b48bb46e"
+  },
+  "baslik": "Ibanez TCY10E-BK Elektro Akustik Gitar",
+  "marka": "Ibanez",
+  "model": "TCY10E-BK",
+  "renk": "Siyah",
+  "klavye": "Gül Ağacı",
+  "sap": "Maun",
+  "perdesayisi": 21,
+  "fotografUrl": "../../uploads/1641365648538.png",
+  "tur": {
+    "$oid": "61bf83e654d12c5313d73350"
+  },
+  "manyetikler": "yok",
+  "fiyat": 4112,
+  "boyut": "4/4",
+  "yon": "sağlak",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61d54104954d63e3b48bb473"
+  },
+  "baslik": "Yamaha APXT2Bl Elektro Akustik Gitar - Travel Model",
+  "marka": "Yamaha",
+  "model": "APXT2Bİ",
+  "renk": "Siyah",
+  "klavye": "Gül Ağacı",
+  "sap": "Maun",
+  "perdesayisi": 20,
+  "fotografUrl": "../../uploads/1641365722686.png",
+  "tur": {
+    "$oid": "61bf83e654d12c5313d73350"
+  },
+  "manyetikler": "yok",
+  "fiyat": 5824,
+  "boyut": "4/4",
+  "yon": "solak",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61d5415a954d63e3b48bb478"
+  },
+  "baslik": "Washburn Comfort Serisi WCG20SCE - Elektro Akustik Gitar",
+  "marka": "Washburn ",
+  "model": "WCG20SCE ",
+  "renk": "Kahve",
+  "klavye": "Gül Ağacı",
+  "sap": "2 Yönlü Truss-Rod’a Sahip Satin Maun",
+  "perdesayisi": 21,
+  "fotografUrl": "../../uploads/1641365795446.png",
+  "tur": {
+    "$oid": "61bf83e654d12c5313d73350"
+  },
+  "manyetikler": "4/4",
+  "fiyat": 11800,
+  "boyut": "4/4",
+  "yon": "sağlak",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61d5444d954d63e3b48bb47d"
+  },
+  "baslik": "Cort Bas Gitar, Vişne Çürüğü, Emg 35 Hz (H-H)",
+  "marka": "Cort",
+  "model": "Emg 35 Hz (H-H)",
+  "renk": "Vişne Çürüğü",
+  "klavye": "Gül Ağacı",
+  "sap": "3Pc Kanada Sert Akça Ağacı",
+  "perdesayisi": 24,
+  "fotografUrl": "../../uploads/1641366539575.png",
+  "tur": {
+    "$oid": "61bf83d354d12c5313d7334c"
+  },
+  "manyetikler": "2 single",
+  "fiyat": 8699,
+  "boyut": "4/4",
+  "yon": "sağlak",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61d5448a954d63e3b48bb482"
+  },
+  "baslik": "Cort Bas Gitar Solak, Open Pore Natürel, (Bartolini Mk1-",
+  "marka": "Cort",
+  "model": "Bartolini Mk1",
+  "renk": "Sütlü Kahve",
+  "klavye": "Gül Ağacı",
+  "sap": " 5Pc Wenge &Amp; Gül Ağacı",
+  "perdesayisi": 24,
+  "fotografUrl": "../../uploads/1641366618867.png",
+  "tur": {
+    "$oid": "61bf83d354d12c5313d7334c"
+  },
+  "manyetikler": "2 single",
+  "fiyat": 8609,
+  "boyut": "4/4",
+  "yon": "solak",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61d544e2954d63e3b48bb487"
+  },
+  "baslik": "Cort Bas Gitar, Kılıflı, Open Pore Ceviz, Seymour Duncan",
+  "marka": "cort",
+  "model": "Seymour Duncan",
+  "renk": "Ceviz Kabuğu",
+  "klavye": "Gül Ağacı",
+  "sap": "3Pc Kanada Sert Akça Ağacı",
+  "perdesayisi": 24,
+  "fotografUrl": "../../uploads/1641366700028.png",
+  "tur": {
+    "$oid": "61bf83d354d12c5313d7334c"
+  },
+  "manyetikler": "2 single",
+  "fiyat": 27309,
+  "boyut": "4/4",
+  "yon": "solak",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61d54520954d63e3b48bb48c"
+  },
+  "baslik": "Cort Bas Gitar, Siyah, (Desonic By Delano, Jazz-F & Mm-R",
+  "marka": "Cort",
+  "model": "Jazz-F & Mm-R",
+  "renk": "Siyah",
+  "klavye": "Gül Ağacı",
+  "sap": "3Pc Kanada Sert Akça Ağacı",
+  "perdesayisi": 24,
+  "fotografUrl": "../../uploads/1641366771905.png",
+  "tur": {
+    "$oid": "61bf83d354d12c5313d7334c"
+  },
+  "manyetikler": "2 single",
+  "fiyat": 8900,
+  "boyut": "4/4",
+  "yon": "sağlak",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61d54555954d63e3b48bb491"
+  },
+  "baslik": "Ibanez Bas Gitar Endonezya :Ibanez Endonezya",
+  "marka": "Ibanez",
+  "model": "Endonezya",
+  "renk": "Mavi",
+  "klavye": "Gül Ağacı",
+  "sap": " 5Pc Wenge &Amp; Gül Ağacı",
+  "perdesayisi": 24,
+  "fotografUrl": "../../uploads/1641366832255.png",
+  "tur": {
+    "$oid": "61bf83d354d12c5313d7334c"
+  },
+  "manyetikler": "2 single",
+  "fiyat": 7000,
+  "boyut": "4/4",
+  "yon": "sağlak",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61d545a5954d63e3b48bb496"
+  },
+  "baslik": "Cort AD810-OPW Akustik Gitar Seti (CAP810)",
+  "marka": "Cort",
+  "model": "AD810-OPW",
+  "renk": "Sütlü Kahve",
+  "klavye": "Gül Ağacı",
+  "sap": "Maun",
+  "perdesayisi": 20,
+  "fotografUrl": "../../uploads/1641366888494.png",
+  "tur": {
+    "$oid": "61bf83ed54d12c5313d73352"
+  },
+  "manyetikler": "yok",
+  "fiyat": 3119,
+  "boyut": "4/4",
+  "yon": "solak",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61d545ed954d63e3b48bb49b"
+  },
+  "baslik": "Takamine Gd11M Ns Akustik Gitar",
+  "marka": "Takamine ",
+  "model": " Gd11M Ns ",
+  "renk": "Koyu Kahve",
+  "klavye": "Gül Ağacı",
+  "sap": "Maun",
+  "perdesayisi": 21,
+  "fotografUrl": "../../uploads/1641366969189.png",
+  "tur": {
+    "$oid": "61bf83ed54d12c5313d73352"
+  },
+  "manyetikler": "yok",
+  "fiyat": 3494,
+  "boyut": "4/4",
+  "yon": "sağlak",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61d5463c954d63e3b48bb4a0"
+  },
+  "baslik": "Fenix Psag-13/br Akustik Gitar",
+  "marka": "Fenix",
+  "model": " Psag-13/br",
+  "renk": "Acı  Kahve",
+  "klavye": "Gül Ağacı",
+  "sap": "Maun",
+  "perdesayisi": 20,
+  "fotografUrl": "../../uploads/1641367047946.png",
+  "tur": {
+    "$oid": "61bf83ed54d12c5313d73352"
+  },
+  "manyetikler": "yok",
+  "fiyat": 999,
+  "boyut": "4/4",
+  "yon": "sağlak",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61d54689954d63e3b48bb4a5"
+  },
+  "baslik": "Takamıne Gd10Lh Ns Solak Akustik Gitar -",
+  "marka": "Takamıne ",
+  "model": " Gd10Lh Ns",
+  "renk": "Sütlü Kahve",
+  "klavye": "Gül Ağacı",
+  "sap": "Maun",
+  "perdesayisi": 21,
+  "fotografUrl": "../../uploads/1641367126256.png",
+  "tur": {
+    "$oid": "61bf83ed54d12c5313d73352"
+  },
+  "manyetikler": "yok",
+  "fiyat": 4569,
+  "boyut": "4/4",
+  "yon": "solak",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61d546de954d63e3b48bb4aa"
+  },
+  "baslik": "Cort L100Cns Akustik Gitar",
+  "marka": "Cort",
+  "model": "L100Cns",
+  "renk": "Kahve",
+  "klavye": "Gül Ağacı",
+  "sap": "Nato",
+  "perdesayisi": 19,
+  "fotografUrl": "../../uploads/1641367203636.png",
+  "tur": {
+    "$oid": "61bf83dc54d12c5313d7334e"
+  },
+  "manyetikler": "yok",
+  "fiyat": 5569,
+  "boyut": "4/4",
+  "yon": "sağlak",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61d5472f954d63e3b48bb4af"
+  },
+  "baslik": "Ibanez IJRX20U-BKN Elektro Gitar Paketi Gigbag",
+  "marka": "Ibanez",
+  "model": "IJRX20U-BKN",
+  "renk": "Siyah",
+  "klavye": "akçağaç",
+  "sap": "Akçaağaç",
+  "perdesayisi": 19,
+  "fotografUrl": "../../uploads/1641367282033.png",
+  "tur": {
+    "$oid": "61bf83dc54d12c5313d7334e"
+  },
+  "manyetikler": "2 single",
+  "fiyat": 4095,
+  "boyut": "4/4",
+  "yon": "sağlak",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61d5476d954d63e3b48bb4b4"
+  },
+  "baslik": "Squier MM Strat Sabit Köprü Siyah Elektro Gitar",
+  "marka": "Fender",
+  "model": " MM Stratocaster SSS",
+  "renk": "Siyah",
+  "klavye": "akçağaç",
+  "sap": "Akçaağaç",
+  "perdesayisi": 21,
+  "fotografUrl": "../../uploads/1641367359064.png",
+  "tur": {
+    "$oid": "61bf83dc54d12c5313d7334e"
+  },
+  "manyetikler": "3 single",
+  "fiyat": 3000,
+  "boyut": "4/4",
+  "yon": "sağlak",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61d547af954d63e3b48bb4b9"
+  },
+  "baslik": "Ibanez Grg170DxBkn Elektro Gitar",
+  "marka": "Ibanez",
+  "model": " Grg170DxBkn",
+  "renk": "Siyah",
+  "klavye": "akçaağaç",
+  "sap": "Akçaağaç",
+  "perdesayisi": 24,
+  "fotografUrl": "../../uploads/1641367417810.png",
+  "tur": {
+    "$oid": "61bf83dc54d12c5313d7334e"
+  },
+  "manyetikler": "2 single",
+  "fiyat": 4785,
+  "boyut": "4/4",
+  "yon": "solak",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61d547f4954d63e3b48bb4be"
+  },
+  "baslik": "Fender Squier Bullet Strat With Tremolo Hss Laurel Klavye Brown Sunburst Elektro Gitar 0370005532",
+  "marka": "Fender",
+  "model": " Bullet Stratocaster HSS",
+  "renk": "Kahve- Siyah",
+  "klavye": "Gül Ağacı",
+  "sap": "Maun",
+  "perdesayisi": 24,
+  "fotografUrl": "../../uploads/1641367491757.png",
+  "tur": {
+    "$oid": "61bf83dc54d12c5313d7334e"
+  },
+  "manyetikler": "3 single",
+  "fiyat": 4865,
+  "boyut": "4/4",
+  "yon": "solak",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61d54863954d63e3b48bb4c5"
+  },
+  "baslik": "Fender Bullet Stratocaster HSS Laurel Klavye Arctic White",
+  "marka": "Fender",
+  "model": " Bullet Stratocaster HSS",
+  "renk": "Beyaz",
+  "klavye": "akçaağaç",
+  "sap": "Akçaağaç",
+  "perdesayisi": 21,
+  "fotografUrl": "../../uploads/1641367601554.png",
+  "tur": {
+    "$oid": "61bf83dc54d12c5313d7334e"
+  },
+  "manyetikler": "3 single",
+  "fiyat": 3025,
+  "boyut": "4/4",
+  "yon": "sağlak",
+  "__v": 0
+}]

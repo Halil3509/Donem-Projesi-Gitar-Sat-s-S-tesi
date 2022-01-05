@@ -1,0 +1,56 @@
+[{
+  "_id": {
+    "$oid": "61bf82a854d12c5313d7334a"
+  },
+  "il": "izmir",
+  "ilce": "buca",
+  "acikAdres": "798 sokak no 33",
+  "kullanici": {
+    "$oid": "61bf81f954d12c5313d73345"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61d594df30b00514c8984664"
+  },
+  "il": "izmir",
+  "ilce": "buca",
+  "acikAdres": "805 sokak no 55",
+  "kullanici": {
+    "$oid": "61bf81f954d12c5313d73345"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61d594f2b46e134c66ceb179"
+  },
+  "il": "izmir",
+  "ilce": "bornova",
+  "acikAdres": "370 sokak no:55",
+  "kullanici": {
+    "$oid": "61bf81f954d12c5313d73345"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61d5950bb80ebb37c7884ff4"
+  },
+  "il": "izmir",
+  "ilce": "Çiğli",
+  "acikAdres": "349 sokak no: 89",
+  "kullanici": {
+    "$oid": "61bf81f954d12c5313d73345"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61d5951c7b82531401a00389"
+  },
+  "il": "izmir",
+  "ilce": "Çiğli",
+  "acikAdres": "7895sokak no:65",
+  "kullanici": {
+    "$oid": "61bf81f954d12c5313d73345"
+  },
+  "__v": 0
+}]
