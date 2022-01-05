@@ -15,7 +15,7 @@ var AdminRouter = require('./routes/admin.router');
 
 var app = express();
 
-const dbURL='mongodb://halililbo:fD8DRaxhX6XjJfRP@cluster0-shard-00-00.qjj48.mongodb.net:27017,cluster0-shard-00-01.qjj48.mongodb.net:27017,cluster0-shard-00-02.qjj48.mongodb.net:27017/blog-site-project?ssl=true&replicaSet=atlas-10dmto-shard-0&authSource=admin&retryWrites=true&w=majority'
+const dbURL=''
 mongoose.connect(dbURL, { useNewUrlParser: true, useUnifiedTopology: true })
   .then((result) => console.log('Database bağlama işleminiz başarıyla gerçekleşti')).catch((err) => console.log(err))
 
